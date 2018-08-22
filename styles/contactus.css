@@ -1,6 +1,6 @@
 body{
-  font-family: 'Quicksand', sans-serif;
-  margin-top: 90px;
+  height: 100vh;
+  margin-top: 130px;
 }
 .navbar{
   height: 90px;
@@ -24,6 +24,9 @@ body{
 .navbar-nav{
   height: 100%;
 }
+.main{
+  margin: 40px;
+}
 #mynav{
   background-color: #eee;
 }
@@ -31,24 +34,19 @@ body{
   height: 50px;
   background-color:#eee;
   transition: 0.4s ease;
+
 }
 .navbar-brand{
   width: 12%;
   height: 50px;
 }
-
-.leader{
-  border-radius: 100%;
-  text-align: center;
-}
-.justify {
-    text-align:justify;
-    text-justify:inter-word;
-    padding-top: 10%;
-}
 .row{
-  width: 100%;
-  overflow-x: hidden;
+  width:100%;
+}
+.footer{
+  height: 120px;
+  background-color: #eee;
+
 }
 .footer img{
   margin-left: 60%;
@@ -59,4 +57,9 @@ body{
   margin: 0;
   font-size: 13px;
   width: 70%;
+}
+.justify {
+    text-align:justify;
+    text-justify:inter-word;
+    margin: 50px;
 }

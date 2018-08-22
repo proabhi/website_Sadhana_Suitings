@@ -1,3 +1,6 @@
+body{
+  height: 100vh;
+}
 .navbar{
   height: 90px;
   background: red;
@@ -32,4 +35,22 @@
 .navbar-brand{
   width: 12%;
   height: 50px;
+}
+.row{
+  width:100%;
+}
+.footer{
+  height: 120px;
+  background-color: #eee;
+
+}
+.footer img{
+  margin-left: 60%;
+  padding-top:5%;
+}
+#copy{
+  padding-top: 60px;
+  margin: 0;
+  font-size: 13px;
+  width: 70%;
 }
