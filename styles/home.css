@@ -1,9 +1,8 @@
- .navbar img{
+.navbar img{
   height: 60px;
   width: 15%;
   padding: 5% auto%;
 }
-
 .row{
   width:100%;
 }
@@ -22,15 +21,14 @@
   font-size: 13px;
   width: 70%;
 }
-/* @media (max-width: 767px) {
-    #mynav{
-        position: relative;
-        top: auto;
-    }
-    .navbar-collapse {
-        max-height: none;
-    }
-    body {
-        margin: 0;
-    }
-} */
+@media (max-width:991px) {
+  .navbar img{
+    width:40%;
+    margin:0 auto;
+  }
+  .footer img{
+    margin-left: 0;
+    height: 100%;
+    padding-top: 15%;
+  }
+}
