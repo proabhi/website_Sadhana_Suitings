@@ -1,40 +1,12 @@
+
+
+.navbar img{
+  height: 60px;
+  width: 15%;
+  padding: 5% auto;
+}
 body{
-  height: 100vh;
-}
-.navbar{
-  height: 90px;
-  background: red;
-  transition: 0.5s;
-}
-.scrolled.navbar  img{
-  height: 40px;
-  padding: 2% auto;
-}
-
-.scrolled {
- transition: 0.5s ease;
-}
-@media (min-width: 768px){
-  .navbar-expand-md .navbar-nav .nav-link{
-    height: 100%;
-    padding: auto 4%;
-  }
-}
-.navbar-nav{
-  height: 100%;
-}
-#mynav{
-  background-color: #eee;
-}
-.scrolled.navbar {
-  height: 50px;
-  background-color:#eee;
-  transition: 0.4s ease;
-
-}
-.navbar-brand{
-  width: 12%;
-  height: 50px;
+  padding-top:85px;
 }
 .row{
   width:100%;
@@ -53,4 +25,42 @@ body{
   margin: 0;
   font-size: 13px;
   width: 70%;
+}
+.footer{
+  height: 120px;
+  background-color: #eee;
+
+}
+.footer img{
+  margin-left: 60%;
+  padding-top:5%;
+}
+#copy{
+  padding-top: 60px;
+  margin: 0;
+  font-size: 13px;
+  width: 70%;
+}
+@media (max-width:991px) {
+  .navbar img{
+    width:40%;
+    margin:0 auto;
+  }
+  .footer img{
+    margin-left: 0;
+    height: 100%;
+    padding-top: 15%;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-fixed-top {
+      position: relative;
+      top: auto;
+  }
+  .navbar-collapse {
+      max-height: none;
+  }
+  body {
+      margin: 0;
+  }
 }

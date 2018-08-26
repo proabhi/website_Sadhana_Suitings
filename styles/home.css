@@ -1,7 +1,10 @@
 .navbar img{
   height: 60px;
   width: 15%;
-  padding: 5% auto%;
+  padding: 5% auto;
+}
+body{
+  padding-top:85px; 
 }
 .row{
   width:100%;
@@ -30,5 +33,17 @@
     margin-left: 0;
     height: 100%;
     padding-top: 15%;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-fixed-top {
+      position: relative;
+      top: auto;
+  }
+  .navbar-collapse {
+      max-height: none;
+  }
+  body {
+      margin: 0;
   }
 }

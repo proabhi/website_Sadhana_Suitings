@@ -1,45 +1,35 @@
 body{
   font-family: 'Quicksand', sans-serif;
   margin-top: 90px;
+  padding-top: 85px;
 }
-.navbar{
-  height: 90px;
-  background: red;
-  transition: 0.5s;
+.navbar img{
+  height: 60px;
+  width: 15%;
+  padding: 5% auto;
 }
-.scrolled.navbar  img{
-  height: 40px;
-  padding: 2% auto;
-}
-
-.scrolled {
- transition: 0.5s ease;
-}
-@media (min-width: 768px){
-  .navbar-expand-md .navbar-nav .nav-link{
+@media (max-width:991px) {
+  .navbar img{
+    width:40%;
+    margin:0 auto;
+  }
+  .footer img{
+    margin-left: 0;
     height: 100%;
-    padding: auto 4%;
+    padding-top: 15%;
   }
 }
-.navbar-nav{
-  height: 100%;
-}
-#mynav{
-  background-color: #eee;
-}
-.scrolled.navbar {
-  height: 50px;
-  background-color:#eee;
-  transition: 0.4s ease;
-}
-.navbar-brand{
-  width: 12%;
-  height: 50px;
-}
-
-.leader{
-  border-radius: 100%;
-  text-align: center;
+@media (max-width: 767px) {
+  .navbar-fixed-top {
+      position: relative;
+      top: auto;
+  }
+  .navbar-collapse {
+      max-height: none;
+  }
+  body {
+      margin: 0;
+  }
 }
 .justify {
     text-align:justify;
