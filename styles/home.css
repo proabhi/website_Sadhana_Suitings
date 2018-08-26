@@ -4,7 +4,7 @@
   padding: 5% auto;
 }
 body{
-  padding-top:85px; 
+  padding-top:85px;
 }
 .row{
   width:100%;
@@ -45,5 +45,6 @@ body{
   }
   body {
       margin: 0;
+      padding: 0;
   }
 }
